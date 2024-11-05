@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 10px; */
+   
+}
+.select{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.board-container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.cell{
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
